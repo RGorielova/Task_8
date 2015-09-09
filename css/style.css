@@ -34,6 +34,15 @@ body {
 		 url('../fonts/MyriadPro-Regular.ttf')  format('truetype'),
 		 url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
 }
+@font-face {
+	font-family: 'MyriadProLightCondensed';
+	src: url('../fonts/myriadpro-lightcond.eot');
+	src: url('../fonts/myriadpro-lightcond.eot') format('embedded-opentype'),
+		 url('../fonts/myriadpro-lightcond.woff2') format('woff2'),
+		 url('../fonts/myriadpro-lightcond.woff') format('woff'),
+		 url('../fonts/myriadpro-lightcond.ttf') format('truetype'),
+		 url('../fonts/myriadpro-lightcond.svg#MyriadProLightCondensed') format('svg');
+}
 .size {
 	width: 960px;
 	margin: 0 auto;
@@ -79,6 +88,7 @@ body {
 }
 .header-nav {
 	margin: 28px 0 0 0;
+	border-bottom: 1px solid rgba(134, 134, 134, 0.2);
 	border-top: 1px solid rgba(134, 134, 134, 0.2);
 	background: linear-gradient(to bottom, rgba(72, 102, 128, 0.2), rgba(255, 255, 255, 0.2));
 	background: -webkit-linear-gradient(top, rgba(72, 102, 128, 0.2), rgba(255, 255, 255, 0.2));
@@ -215,13 +225,14 @@ body {
 	left: 54px;
 	width: 323px;
 }
-.gallery .list .info h1 {
+.gallery .list .info h2 {
 	font: 32px/36px 'MyriadPro-Bold', sans-serif;
 	color: #fff;
 	text-shadow: 2px 2px 0 #000;
 }
-.gallery .list .info h1 span {
+.gallery .list .info h2 span {
 	text-transform: uppercase;
+
 }
 .gallery .list .info p {
 	color: #fff;
@@ -281,11 +292,27 @@ body {
 	background-position: 95% 50%;
 	text-decoration: none;
 }
+.client-portfolio li {
+  font-size: 14px;
+  color: #676565;
+  border-bottom: none !important;
+  padding: 35px 7px 0 10px;
+}
+.client-portfolio li:first-child {
+  padding: 10px 7px 0 10px;
+}
+.client-portfolio li a {
+  color: #676565;
+  text-decoration: none;
+}
+.client-portfolio li a:hover {
+  text-decoration: underline;
+}
 .content {
 	margin-right: 210px;
 	width: 710px;
 }
-.content h1 {
+h1 {
 	font: 32px/34px 'MyriadPro-Regular', sans-serif;
 	color: #1f2273;
 	text-transform: uppercase;
@@ -299,7 +326,7 @@ form, fieldset {
 }
 form {
 	float: right;
-	width: 200px;
+	width: 210px;
 	padding-top: 30px;
 }
 form p {
@@ -307,13 +334,13 @@ form p {
 	color: #606060;
 	margin: -4px 0 6px 0;
 }
-input, select {
+input, select, textarea {
 	border: 1px solid #b6b6b6;
 	border-radius: 3px;
-	font-size: 14px;
+	font: 14px Arial, sans-serif;
 	color: #888;
 	height: 28px;
-	width: 196px;
+	width: 210px;
 	margin: 0 0 6px 0;
 	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1) inset;
 	padding: 1px 6px 0px 5px;

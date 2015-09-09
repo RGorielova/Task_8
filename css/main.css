@@ -1,0 +1,75 @@
+.content-left {
+  width: 210px;
+  float: left;
+  padding: 15px 0 0 0;
+}
+.content-left ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.content-left ul li a {
+  font: 14px Arial, sans-serif;
+  color: #8a8888;
+  padding: 5px 0 6px 11px;
+  display: block;
+}
+.content-left ul li a:hover,
+.content-left ul li a.active {
+  color: #1f2273;
+  text-decoration: none;
+  border-top: 1px solid #1f2273;
+  border-bottom: 1px solid #1f2273;
+  padding: 4px 0 5px 11px;
+}
+.content-center {
+  width: 500px;
+  float: left;
+  padding: 0 0 0 40px;
+}
+.content-center .form-contacts {
+  width: 100%;
+  overflow: hidden;
+}
+.content-center .form-contacts input:nth-child(odd) {
+  float: left;
+}
+.content-center .form-contacts input:not(:last-child):nth-child(even),
+.content-center .form-contacts select {
+  float: right;
+}
+.content-center .form-contacts option:first-child {
+  display: none;
+}
+.content-center .form-contacts textarea {
+  width: 460px;
+  height: 100%;
+  resize: none;
+}
+.contacts-call {
+  margin: 4px 0 0 1px;
+  padding: 44px 10px 0 0;
+  overflow: hidden;
+}
+.contacts-call p {
+  color: #1f2273;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+.contacts-call p span {
+  font: 22px/30px 'MyriadProLightCondensed';
+}
+.contacts-call button {
+  float: right;
+  margin: 0 15%;
+}
+.mail {
+  text-decoration: underline;
+  color: #ce0000;
+}
+.mail-col {
+  margin: 20px 0;
+}
