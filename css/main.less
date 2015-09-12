@@ -49,7 +49,7 @@
 	width: 500px;
 	float: left;
 	padding: 0 0 0 40px;
-	.form-contacts {
+	> .form-contacts {
 		width: 100%;
 		overflow: hidden;
 		input:nth-child(odd) {
@@ -94,12 +94,6 @@
 }
 .mail-col {
 	margin: 20px 0;
-}
-h4 {
-	font: 14px/34px Arial, sans-serif;
-	margin: 0 0 -2px 0;
-	font-weight: bold;
-	color: #636161;
 }
 .content-center h3 {
 	font: 19px/21px Arial, sans-serif;
@@ -209,4 +203,179 @@ h4 {
 			}
 		}
 	}
+}
+.form-QEICLASSES {
+	width: 100%;
+	overflow: hidden;
+	h2 {
+		font: 14px/18px Arial, sans-serif;
+		color: #8d9094;
+		font-weight: bold;
+		margin: 20px 0 10px 0;
+		padding: 8px 9px 10px 9px;
+		text-transform: uppercase;
+		border-bottom: 1px solid #cfcfcf;
+		border-top: 1px solid #cfcfcf;
+		background: -webkit-linear-gradient(rgba(72, 102, 128, 0.2), rgba(255, 255, 255, 0.2));
+		background: -o-linear-gradient(rgba(72, 102, 128, 0.2), rgba(255, 255, 255, 0.2));
+		background: linear-gradient(rgba(72, 102, 128, 0.2), rgba(255, 255, 255, 0.2));
+	}
+	span {
+		padding: 0 0 15px 10px;
+		display: block;
+	}
+	.small {
+		select:nth-child(2) {
+			width: 65px !important;
+			margin: 0 15px 6px 0;
+		}
+		select:nth-child(3) {
+			width: 125px !important;
+		}
+	}
+	p {
+		margin: 0;
+	}
+	a {
+		font-size: 12px;
+		margin: 7px 0 0 0;
+		color: #cd0000;
+	}
+	label {
+		color: #3e3e3e;
+		text-align: right;
+		width: 123px;
+		float: left;
+		font-size: 12px;
+		padding: 7px 16px 0px 0;
+	}
+	.check {
+		color: #3e3e3e;
+		text-align: left;
+		float: none;
+	}
+	.long {
+		width: 265px;
+	}
+	.short {
+		width: 85px;
+		margin-right: 15px;
+	}
+	.required {
+		background: url("../images/star.png") no-repeat 76% 40%;
+	}
+	.required-long {
+		background: url("../images/star.png") no-repeat 88% 40%;
+	}
+	textarea {
+		width: 460px;
+		height: 100%;
+		resize: none;
+	}
+	option:first-child {
+			display: none;
+	}
+	.submit-class {
+		width: 112px;
+		font: 14px 'MyriadPro-Bold';
+		text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.4);
+		border: none;
+		border-radius: 3px;
+		margin: 10px 0 0;
+		background-image: -webkit-linear-gradient(bottom, #00c0ed, #99e9fd);
+		background-image: -o-linear-gradient(bottom, #00c0ed, #99e9fd);
+		background-image: linear-gradient(to top, #00c0ed, #99e9fd);
+		text-transform: uppercase;
+		color: #fff;
+		box-shadow: none;
+	}
+}
+table {
+	border-collapse: collapse;
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+	td {
+		padding: 10px;
+	}
+}
+.table-information {
+	background-color: #d2d3e3;
+	margin: 37px 0 37px 0;
+	td:first-child {
+		font-weight: bold;
+		vertical-align: top;
+	}
+	td:nth-child(2) {
+		font-size: 12px;
+	}
+	a {
+		text-align: center;
+		color: #3e3e3e;
+		font: 14px/18px 'MyriadPro-Bold', helvetica, sans-serif;
+		background: url("../images/marker.png") no-repeat;
+		display: block;
+		padding: 28px 0 0 38px;
+		height: 44px;
+	}
+}
+td[rowspan="9"] {
+	padding: 0 20px 0 35px;
+}
+.table-fee tr:first-child td:nth-child(2),
+.table-fee tr:nth-child(2) td:nth-child(2) {
+	text-align: center;
+}
+.table-fee {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	width: 460px;
+	tr {
+		&:first-child {
+			border-bottom: 1px solid rgba(134, 134, 134, 0.14);
+			color: #8d9094;
+			text-transform: uppercase;
+			background: -webkit-linear-gradient(top, rgba(72, 102, 128, 0.2), rgba(255, 255, 255, 0.2));
+			td {
+				font-size: 14px;
+				line-height: 16px;
+				font-weight: bold;
+			}
+		}
+		&:last-child {
+			background-color: #1f2273;
+			color: #fff;
+			font-size: 18px;
+			line-height: 20px;
+			text-align: right;
+			td {padding: 8px 26px 8px 0;}
+		}
+		td:first-child {
+			width: 135px;
+		}
+		td:nth-child(2){
+			width: 240px;
+		}
+		td:nth-child(3){
+			width: 85px;
+		}
+	}
+}
+input[type="checkbox"] {
+	background: url(../images/checkbox.png);
+	height: 14px;
+	width: 14px;
+	-webkit-appearance: none;
+	cursor: pointer;
+	color: #275d77;
+	margin-right: 5px;
+	vertical-align: middle;
+	border: none;
+	border-radius: 0;
+}
+input[type="checkbox"]:checked {
+	background-position: -14px 0;
+	border: none;
+	border-radius: 0;
 }

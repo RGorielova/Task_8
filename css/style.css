@@ -260,6 +260,12 @@ h1 {
 	text-transform: uppercase;
 	margin: 0 0 12px 0;
 }
+h4 {
+	font: 14px/34px Arial, sans-serif;
+	margin: 0 0 -2px 0;
+	font-weight: bold;
+	color: #636161;
+}
 .content p { margin: 0 0 18px 0;}
 form, fieldset {
 	margin: 0;
@@ -281,13 +287,12 @@ input, select, textarea {
 	border-radius: 3px;
 	font: 14px Arial, sans-serif;
 	color: #888;
-	height: 28px;
+	height: 30px;
 	width: 210px;
 	margin: 0 0 6px 0;
 	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1) inset;
 	padding: 1px 6px 0px 5px;
 	outline: none;
-	display: block;
 }
 .submit {
 	width: 97px;
