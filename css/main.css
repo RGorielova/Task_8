@@ -4,7 +4,7 @@
   padding: 15px 0 0 0;
 }
 .content-left ul {
-  padding: 0;
+  padding: 0 0 20px;
   margin: 0;
   list-style: none;
 }
@@ -21,6 +21,28 @@
   border-top: 1px solid #1f2273;
   border-bottom: 1px solid #1f2273;
   padding: 4px 0 5px 11px;
+}
+.renewal-exam {
+  text-align: center;
+  margin: 20px 0 0;
+}
+.renewal-exam p {
+  text-transform: uppercase;
+  color: #77777d;
+  font: 24px 'MyriadPro-Bold';
+}
+.renewal-exam a {
+  display: block;
+  width: 112px;
+  text-decoration: none;
+  font: 14px 'MyriadPro-Bold';
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  margin: 5px 0 0 45px;
+  padding: 8px 0 6px 0px;
+  background-image: -webkit-linear-gradient(bottom, #00c0ed, #99e9fd);
+  background-image: -o-linear-gradient(bottom, #00c0ed, #99e9fd);
+  background-image: linear-gradient(to top, #00c0ed, #99e9fd);
 }
 .content-center {
   width: 500px;
@@ -72,4 +94,121 @@
 }
 .mail-col {
   margin: 20px 0;
+}
+h4 {
+  font: 14px/34px Arial, sans-serif;
+  margin: 0 0 -2px 0;
+  font-weight: bold;
+  color: #636161;
+}
+.content-center h3 {
+  font: 19px/21px Arial, sans-serif;
+  margin: 0 0 16px 0;
+  font-weight: bold;
+}
+.content-center p {
+  margin: 0 0 18px 0;
+}
+.qei-faq .accordion {
+  color: #3e3e3e;
+}
+.qei-faq .accordion > li {
+  padding-bottom: 17px;
+}
+.qei-faq .accordion > li .opener {
+  display: block;
+  padding: 0 0 0 22px;
+  background-image: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+.qei-faq .accordion > li .slide-content {
+  margin: 17px 0 2px 0;
+  padding: 19px 13px 17px 22px;
+  list-style: none;
+  background-color: #d2d3e3;
+}
+.qei-faq > .accordion > .active > .opener,
+.qei-faq > .accordion > li:hover > .opener {
+  background-image: url("../images/arrow-active.png");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+.sidebar .accordion .active .opener,
+.sidebar .accordion li:hover .opener {
+  background-color: #1f2273;
+  color: #52b9ea;
+  text-shadow: #000000 0 -1px 1px;
+  background-image: url("../images/arrow-active.png");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  text-decoration: none;
+}
+.sidebar {
+  float: right;
+  width: 210px;
+}
+.sidebar .accordion {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar .accordion li {
+  margin-bottom: 1px;
+}
+.sidebar .accordion li .opener {
+  font-size: 14px;
+  display: block;
+  padding: 10px 0 10px 10px;
+  text-shadow: 0 -1px 1px #000000;
+  background-image: url("../images/arrow.png"), -webkit-linear-gradient(left, #868686, #c6c6c6);
+  background-image: url("../images/arrow.png"), -moz-linear-gradient(left, #868686, #c6c6c6);
+  background-image: url("../images/arrow.png"), -o-linear-gradient(left, #868686, #c6c6c6);
+  background-image: url("../images/arrow.png"), linear-gradient(to right, #868686, #c6c6c6);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+.sidebar .accordion li .slide-content {
+  padding: 0 0 19px 0;
+  list-style: none;
+  background-color: #ebebeb;
+  box-shadow: 10px 2px 8px -10px #aaaaaa inset;
+}
+.sidebar .accordion li .slide-content li {
+  padding: 9px 7px 9px 11px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1f2273;
+}
+.sidebar .accordion li .slide-content li:not(:last-child) {
+  border-bottom: 1px dotted #b0b0b0;
+}
+.sidebar .accordion li .slide-content li a {
+  color: #000;
+  text-decoration: underline;
+  display: block;
+}
+.sidebar .accordion li .client-portfolio {
+  padding: 0 0 19px 0;
+  list-style: none;
+  background-color: #ebebeb;
+  box-shadow: 10px 2px 8px -10px #aaaaaa inset;
+}
+.sidebar .accordion li .client-portfolio li {
+  font-size: 14px;
+  color: #676565;
+  border-bottom: none !important;
+  padding: 35px 7px 0 10px;
+}
+.sidebar .accordion li .client-portfolio li:first-child {
+  padding: 10px 7px 0 10px;
+}
+.sidebar .accordion li .client-portfolio li a {
+  color: #676565;
+  text-decoration: none;
+}
+.sidebar .accordion li .client-portfolio li a:hover {
+  text-decoration: underline;
 }
