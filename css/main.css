@@ -1,7 +1,6 @@
 .content-left {
   width: 210px;
   float: left;
-  padding: 15px 0 0 0;
 }
 .content-left ul {
   padding: 0 0 20px;
@@ -378,4 +377,76 @@ input[type="checkbox"]:checked {
   background-position: -14px 0;
   border: none;
   border-radius: 0;
+}
+.download {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.blue-button {
+  display: block;
+  width: 112px;
+  text-decoration: none;
+  font: 14px 'MyriadPro-Bold';
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  margin: 20px auto;
+  padding: 8px 0 6px 0px;
+  background-image: -webkit-linear-gradient(bottom, #00c0ed, #99e9fd);
+  background-image: -o-linear-gradient(bottom, #00c0ed, #99e9fd);
+  background-image: linear-gradient(to top, #00c0ed, #99e9fd);
+}
+.blue-button:hover {
+  text-decoration: none;
+}
+.whats-news .accordion {
+  padding-right: 25px;
+}
+.whats-news .accordion p {
+  margin-bottom: 10px;
+}
+.whats-news .accordion > li {
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+}
+.whats-news .accordion > li .opener {
+  display: block;
+  color: #3e3e3e;
+}
+.whats-news .accordion > li .slide-content {
+  padding: 0;
+  list-style: none;
+}
+.whats-news > .accordion > .active > .opener {
+  display: none;
+}
+ul.list {
+  padding-left: 15px;
+}
+ul.list li {
+  color: #868686;
+}
+ul.list li p {
+  color: #3e3e3e;
+}
+.column {
+  -webkit-column-width: 210px;
+  -moz-column-width: 210px;
+  column-width: 210px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  min-height: 725px;
+}
+.column strong {
+  font-size: 14px;
+}
+img.history {
+  float: left;
+  margin-right: 20px;
 }

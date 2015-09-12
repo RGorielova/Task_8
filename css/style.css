@@ -122,33 +122,37 @@ body {
 	position: relative;
 	z-index: 2;
 }
-.header-nav >.nav > li:hover > a,
+.header-nav >.nav > li:hover > a {
+    padding: 29px 41px 26px 40px;
+    margin-bottom: -10px;
+    border: 1px solid #c9c9c9;
+	border-bottom: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+	color: #1f2273;
+	box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.header-nav >.nav > li:hover > a.more {
+    padding: 29px 41px 27px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+    box-shadow: 3px -3px 9px -4px rgba(0, 0, 0, 0.2), -3px -3px 9px -4px rgba(0, 0, 0, 0.2);
+}
 .header-nav >.nav > li.active > a  {
 	border: 1px solid #c9c9c9;
 	border-bottom: none;
-	background-color: #fff;
 	display: block;
 	text-decoration: none;
 	color: #1f2273;
-	padding: 29px 41px 17px 40px;
-	box-shadow: 3px -3px 9px -4px rgba(0, 0, 0, 0.2), -3px -3px 9px -4px rgba(0, 0, 0, 0.2);
-}
-.header-nav >.nav > li.active > a {
 	padding: 29px 41px 26px 40px;
 	background-color: rgba(255, 255, 255, 0.8);
 	box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
 	margin: 0 0 -10px 0;
 }
-.header-nav >.nav > li.active:hover > a {
-	box-shadow: 3px -3px 9px -4px rgba(0, 0, 0, 0.2), -3px -3px 9px -4px rgba(0, 0, 0, 0.2);
-	padding: 29px 41px 17px 40px;
-	background-color: #fff;
-}
 .header-nav .nav li .drop {
 	display: none;
 	position: absolute;
 	left: 0;
-	top: 62px;
+	top: 72px;
 	width: 355px;
 	border: 1px solid #c8c9c9;
 	box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.3);
@@ -158,6 +162,18 @@ body {
 	background: -ms-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
 	background: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
 	z-index: 1;
+}
+.header-nav-main >.nav > li:hover > a {
+    padding: 29px 41px 17px 40px;
+}
+.header-nav-main >.nav > li:hover > a.more {
+    padding: 29px 41px 17px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+    box-shadow: 3px -3px 9px -4px rgba(0, 0, 0, 0.2), -3px -3px 9px -4px rgba(0, 0, 0, 0.2);
+}
+.header-nav-main .nav li .drop {
+	position: absolute;
+	top: 62px;
 }
 .drop ul {
 	padding: 9px 0 0 21px;
@@ -258,7 +274,7 @@ h1 {
 	font: 32px/34px 'MyriadPro-Regular', sans-serif;
 	color: #1f2273;
 	text-transform: uppercase;
-	margin: 0 0 12px 0;
+	margin: 0 0 18px 0;
 }
 h4 {
 	font: 14px/34px Arial, sans-serif;
@@ -401,8 +417,12 @@ button {
 	font-size: 11px;
 }
 .facebook {
+	display: block;
 	background: url("../images/like.png") no-repeat;
 	width: 51px;
 	height: 24px;
-	display: block;
+	margin-top: 5px;
+}
+.content-center .facebook {
+	float: right;
 }
